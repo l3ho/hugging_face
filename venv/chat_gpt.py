@@ -59,6 +59,7 @@ def main():
     load_dotenv()
     gpt_env_key = os.getenv("GPT_KEY")
     tk_app = App(gpt_key)
+    abc =1
 
 if __name__ == "__main__":
     main()
